@@ -1,0 +1,19 @@
+Mixed-license repository
+========================
+
+This repository contains materials under different licenses:
+
+1. The complete Understanding Deep Learning PDF and the chapter PDF extracts are by
+   Simon J. D. Prince and are provided under Creative Commons
+   Attribution-NonCommercial-NoDerivatives 4.0 International (CC BY-NC-ND 4.0).
+   See LICENSES/CC-BY-NC-ND-4.0.txt and book/README.md.
+
+2. The official Python notebooks copied from https://github.com/udlbook/udlbook are
+   Copyright 2023 Simon Prince and are provided under the MIT License.
+   See LICENSES/MIT-official-notebooks.txt.
+
+3. The original course scaffolding, scripts, notes templates, and Chapter 14 starter
+   notebook in this repository are provided under the MIT License.
+   See LICENSES/MIT-course-scaffolding.txt.
+
+The scoped notices above take precedence over this summary.

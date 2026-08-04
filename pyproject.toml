@@ -1,0 +1,33 @@
+[project]
+name = "understanding-deep-learning-prince"
+version = "0.1.0"
+description = "Follow-along course repository for Understanding Deep Learning by Simon J. D. Prince."
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+  "ipykernel>=6.29",
+  "jupyterlab>=4.4",
+  "matplotlib>=3.10",
+  "mnist1d",
+  "networkx>=3.4",
+  "numpy>=2.2",
+  "pillow>=11.2",
+  "pypdf>=5.4",
+  "scipy>=1.15",
+  "torch>=2.7",
+  "torchvision>=0.22",
+  "transformers>=4.51",
+]
+
+[dependency-groups]
+dev = ["ruff>=0.12"]
+
+[tool.uv.sources]
+mnist1d = { git = "https://github.com/greydanus/mnist1d.git" }
+
+[tool.ruff]
+line-length = 100
+target-version = "py312"
+
+[tool.ruff.lint]
+select = ["B", "E", "F", "I", "UP"]

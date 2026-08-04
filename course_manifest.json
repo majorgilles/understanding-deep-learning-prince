@@ -1,0 +1,438 @@
+{
+  "course": {
+    "title": "Understanding Deep Learning",
+    "author": "Simon J. D. Prince",
+    "website": "https://udlbook.github.io/udlbook/",
+    "book_source": "book/UnderstandingDeepLearning_02_09_26_C.pdf",
+    "book_edition_date": "2026-02-08",
+    "repository": "https://github.com/majorgilles/understanding-deep-learning-prince",
+    "upstream_notebooks": "https://github.com/udlbook/udlbook",
+    "upstream_commit": "0d84a591362f1cc99c6dc2ce1c2544d559280681"
+  },
+  "chapters": [
+    {
+      "number": "01",
+      "title": "Introduction",
+      "slug": "introduction",
+      "book_pages": "1-16",
+      "pdf_pages": "15-30",
+      "pdf_page_start": 15,
+      "pdf_page_end": 30,
+      "focus": "Orient yourself to supervised, unsupervised, and reinforcement learning and the ethical context of deep learning.",
+      "checkpoint": "Distinguish the three major learning paradigms and explain how deep networks contribute to each.",
+      "official_notebooks": [
+        "1_1_BackgroundMathematics.ipynb"
+      ],
+      "workspace": "chapters/01-introduction",
+      "chapter_pdf": "chapters/01-introduction/chapter-01-introduction.pdf",
+      "notes_file": "chapters/01-introduction/notes.md",
+      "issue": 1
+    },
+    {
+      "number": "02",
+      "title": "Supervised learning",
+      "slug": "supervised-learning",
+      "book_pages": "17-24",
+      "pdf_pages": "31-38",
+      "pdf_page_start": 31,
+      "pdf_page_end": 38,
+      "focus": "Frame supervised learning through models, parameters, losses, training data, and a linear regression example.",
+      "checkpoint": "Describe a supervised learning pipeline and implement the chapter’s linear regression example.",
+      "official_notebooks": [
+        "2_1_Supervised_Learning.ipynb"
+      ],
+      "workspace": "chapters/02-supervised-learning",
+      "chapter_pdf": "chapters/02-supervised-learning/chapter-02-supervised-learning.pdf",
+      "notes_file": "chapters/02-supervised-learning/notes.md",
+      "issue": 2
+    },
+    {
+      "number": "03",
+      "title": "Shallow neural networks",
+      "slug": "shallow-neural-networks",
+      "book_pages": "25-40",
+      "pdf_pages": "39-54",
+      "pdf_page_start": 39,
+      "pdf_page_end": 54,
+      "focus": "Understand one-hidden-layer networks, activation functions, linear regions, and universal approximation.",
+      "checkpoint": "Construct and analyze a shallow network for scalar and multivariate inputs and outputs.",
+      "official_notebooks": [
+        "3_1_Shallow_Networks_I.ipynb",
+        "3_2_Shallow_Networks_II.ipynb",
+        "3_3_Shallow_Network_Regions.ipynb",
+        "3_4_Activation_Functions.ipynb"
+      ],
+      "workspace": "chapters/03-shallow-neural-networks",
+      "chapter_pdf": "chapters/03-shallow-neural-networks/chapter-03-shallow-neural-networks.pdf",
+      "notes_file": "chapters/03-shallow-neural-networks/notes.md",
+      "issue": 3
+    },
+    {
+      "number": "04",
+      "title": "Deep neural networks",
+      "slug": "deep-neural-networks",
+      "book_pages": "41-55",
+      "pdf_pages": "55-69",
+      "pdf_page_start": 55,
+      "pdf_page_end": 69,
+      "focus": "Build depth by composing networks and compare the representation capacity of shallow and deep models.",
+      "checkpoint": "Express a deep network in matrix notation and reason about the effects of composition.",
+      "official_notebooks": [
+        "4_1_Composing_Networks.ipynb",
+        "4_2_Clipping_functions.ipynb",
+        "4_3_Deep_Networks.ipynb"
+      ],
+      "workspace": "chapters/04-deep-neural-networks",
+      "chapter_pdf": "chapters/04-deep-neural-networks/chapter-04-deep-neural-networks.pdf",
+      "notes_file": "chapters/04-deep-neural-networks/notes.md",
+      "issue": 4
+    },
+    {
+      "number": "05",
+      "title": "Loss functions",
+      "slug": "loss-functions",
+      "book_pages": "56-76",
+      "pdf_pages": "70-90",
+      "pdf_page_start": 70,
+      "pdf_page_end": 90,
+      "focus": "Derive practical regression and classification losses from maximum likelihood.",
+      "checkpoint": "Choose and implement an appropriate loss for regression, binary classification, and multiclass classification.",
+      "official_notebooks": [
+        "5_1_Least_Squares_Loss.ipynb",
+        "5_2_Binary_Cross_Entropy_Loss.ipynb",
+        "5_3_Multiclass_Cross_entropy_Loss.ipynb"
+      ],
+      "workspace": "chapters/05-loss-functions",
+      "chapter_pdf": "chapters/05-loss-functions/chapter-05-loss-functions.pdf",
+      "notes_file": "chapters/05-loss-functions/notes.md",
+      "issue": 5
+    },
+    {
+      "number": "06",
+      "title": "Fitting models",
+      "slug": "fitting-models",
+      "book_pages": "77-95",
+      "pdf_pages": "91-109",
+      "pdf_page_start": 91,
+      "pdf_page_end": 109,
+      "focus": "Fit models with gradient descent, stochastic gradient descent, momentum, and Adam.",
+      "checkpoint": "Compare optimization algorithms and explain the role of their hyperparameters.",
+      "official_notebooks": [
+        "6_1_Line_Search.ipynb",
+        "6_2_Gradient_Descent.ipynb",
+        "6_3_Stochastic_Gradient_Descent.ipynb",
+        "6_4_Momentum.ipynb",
+        "6_5_Adam.ipynb"
+      ],
+      "workspace": "chapters/06-fitting-models",
+      "chapter_pdf": "chapters/06-fitting-models/chapter-06-fitting-models.pdf",
+      "notes_file": "chapters/06-fitting-models/notes.md",
+      "issue": 6
+    },
+    {
+      "number": "07",
+      "title": "Gradients and initialization",
+      "slug": "gradients-and-initialization",
+      "book_pages": "96-117",
+      "pdf_pages": "110-131",
+      "pdf_page_start": 110,
+      "pdf_page_end": 131,
+      "focus": "Compute parameter gradients with backpropagation and initialize networks for stable learning.",
+      "checkpoint": "Trace backpropagation through a toy model and justify a sensible initialization strategy.",
+      "official_notebooks": [
+        "7_1_Backpropagation_in_Toy_Model.ipynb",
+        "7_2_Backpropagation.ipynb",
+        "7_3_Initialization.ipynb"
+      ],
+      "workspace": "chapters/07-gradients-and-initialization",
+      "chapter_pdf": "chapters/07-gradients-and-initialization/chapter-07-gradients-and-initialization.pdf",
+      "notes_file": "chapters/07-gradients-and-initialization/notes.md",
+      "issue": 7
+    },
+    {
+      "number": "08",
+      "title": "Measuring performance",
+      "slug": "measuring-performance",
+      "book_pages": "118-137",
+      "pdf_pages": "132-151",
+      "pdf_page_start": 132,
+      "pdf_page_end": 151,
+      "focus": "Measure training and test behavior through error decomposition, bias–variance trade-offs, and double descent.",
+      "checkpoint": "Design an evaluation procedure that separates optimization, generalization, and data-related error.",
+      "official_notebooks": [
+        "8_1_MNIST_1D_Performance.ipynb",
+        "8_2_Bias_Variance_Trade_Off.ipynb",
+        "8_3_Double_Descent.ipynb",
+        "8_4_High_Dimensional_Spaces.ipynb"
+      ],
+      "workspace": "chapters/08-measuring-performance",
+      "chapter_pdf": "chapters/08-measuring-performance/chapter-08-measuring-performance.pdf",
+      "notes_file": "chapters/08-measuring-performance/notes.md",
+      "issue": 8
+    },
+    {
+      "number": "09",
+      "title": "Regularization",
+      "slug": "regularization",
+      "book_pages": "138-160",
+      "pdf_pages": "152-174",
+      "pdf_page_start": 152,
+      "pdf_page_end": 174,
+      "focus": "Improve generalization with explicit penalties, implicit regularization, augmentation, ensembling, and Bayesian ideas.",
+      "checkpoint": "Select and evaluate regularization strategies for a model that overfits.",
+      "official_notebooks": [
+        "9_1_L2_Regularization.ipynb",
+        "9_2_Implicit_Regularization.ipynb",
+        "9_3_Ensembling.ipynb",
+        "9_4_Bayesian_Approach.ipynb",
+        "9_5_Augmentation.ipynb"
+      ],
+      "workspace": "chapters/09-regularization",
+      "chapter_pdf": "chapters/09-regularization/chapter-09-regularization.pdf",
+      "notes_file": "chapters/09-regularization/notes.md",
+      "issue": 9
+    },
+    {
+      "number": "10",
+      "title": "Convolutional networks",
+      "slug": "convolutional-networks",
+      "book_pages": "161-185",
+      "pdf_pages": "175-199",
+      "pdf_page_start": 175,
+      "pdf_page_end": 199,
+      "focus": "Use convolution, equivariance, downsampling, and upsampling to process structured spatial data.",
+      "checkpoint": "Implement 1D and 2D convolutional operations and reason about their output dimensions.",
+      "official_notebooks": [
+        "10_1_1D_Convolution.ipynb",
+        "10_2_Convolution_for_MNIST_1D.ipynb",
+        "10_3_2D_Convolution.ipynb",
+        "10_4_Downsampling_and_Upsampling.ipynb",
+        "10_5_Convolution_For_MNIST.ipynb"
+      ],
+      "workspace": "chapters/10-convolutional-networks",
+      "chapter_pdf": "chapters/10-convolutional-networks/chapter-10-convolutional-networks.pdf",
+      "notes_file": "chapters/10-convolutional-networks/notes.md",
+      "issue": 10
+    },
+    {
+      "number": "11",
+      "title": "Residual networks",
+      "slug": "residual-networks",
+      "book_pages": "186-206",
+      "pdf_pages": "200-220",
+      "pdf_page_start": 200,
+      "pdf_page_end": 220,
+      "focus": "Train deeper systems with residual connections, residual blocks, and batch normalization.",
+      "checkpoint": "Explain how residual pathways affect gradients and construct a residual block.",
+      "official_notebooks": [
+        "11_1_Shattered_Gradients.ipynb",
+        "11_2_Residual_Networks.ipynb",
+        "11_3_Batch_Normalization.ipynb"
+      ],
+      "workspace": "chapters/11-residual-networks",
+      "chapter_pdf": "chapters/11-residual-networks/chapter-11-residual-networks.pdf",
+      "notes_file": "chapters/11-residual-networks/notes.md",
+      "issue": 11
+    },
+    {
+      "number": "12",
+      "title": "Transformers",
+      "slug": "transformers",
+      "book_pages": "207-239",
+      "pdf_pages": "221-253",
+      "pdf_page_start": 221,
+      "pdf_page_end": 253,
+      "focus": "Process sequences with tokenization, self-attention, multi-head attention, and transformer architectures.",
+      "checkpoint": "Implement self-attention and explain encoder, decoder, and encoder–decoder use cases.",
+      "official_notebooks": [
+        "12_1_Self_Attention.ipynb",
+        "12_2_Multihead_Self_Attention.ipynb",
+        "12_3_Tokenization.ipynb",
+        "12_4_Decoding_Strategies.ipynb"
+      ],
+      "workspace": "chapters/12-transformers",
+      "chapter_pdf": "chapters/12-transformers/chapter-12-transformers.pdf",
+      "notes_file": "chapters/12-transformers/notes.md",
+      "issue": 12
+    },
+    {
+      "number": "13",
+      "title": "Graph neural networks",
+      "slug": "graph-neural-networks",
+      "book_pages": "240-268",
+      "pdf_pages": "254-282",
+      "pdf_page_start": 254,
+      "pdf_page_end": 282,
+      "focus": "Represent graphs and solve graph- and node-level tasks with message passing and graph attention.",
+      "checkpoint": "Implement a graph neural network layer and match graph representations to task-specific losses.",
+      "official_notebooks": [
+        "13_1_Graph_Representation.ipynb",
+        "13_2_Graph_Classification.ipynb",
+        "13_3_Neighborhood_Sampling.ipynb",
+        "13_4_Graph_Attention_Networks.ipynb"
+      ],
+      "workspace": "chapters/13-graph-neural-networks",
+      "chapter_pdf": "chapters/13-graph-neural-networks/chapter-13-graph-neural-networks.pdf",
+      "notes_file": "chapters/13-graph-neural-networks/notes.md",
+      "issue": 13
+    },
+    {
+      "number": "14",
+      "title": "Unsupervised learning",
+      "slug": "unsupervised-learning",
+      "book_pages": "269-275",
+      "pdf_pages": "283-289",
+      "pdf_page_start": 283,
+      "pdf_page_end": 289,
+      "focus": "Survey unsupervised and generative model families and the challenge of evaluating generated samples.",
+      "checkpoint": "Compare generative model families and define useful dimensions of generative-model performance.",
+      "official_notebooks": [],
+      "workspace": "chapters/14-unsupervised-learning",
+      "chapter_pdf": "chapters/14-unsupervised-learning/chapter-14-unsupervised-learning.pdf",
+      "notes_file": "chapters/14-unsupervised-learning/notes.md",
+      "issue": 14
+    },
+    {
+      "number": "15",
+      "title": "Generative adversarial networks",
+      "slug": "generative-adversarial-networks",
+      "book_pages": "276-303",
+      "pdf_pages": "290-317",
+      "pdf_page_start": 290,
+      "pdf_page_end": 317,
+      "focus": "Learn generative models through adversarial discrimination and study stability and conditional generation.",
+      "checkpoint": "Implement a toy GAN objective and diagnose common training instabilities.",
+      "official_notebooks": [
+        "15_1_GAN_Toy_Example.ipynb",
+        "15_2_Wasserstein_Distance.ipynb"
+      ],
+      "workspace": "chapters/15-generative-adversarial-networks",
+      "chapter_pdf": "chapters/15-generative-adversarial-networks/chapter-15-generative-adversarial-networks.pdf",
+      "notes_file": "chapters/15-generative-adversarial-networks/notes.md",
+      "issue": 15
+    },
+    {
+      "number": "16",
+      "title": "Normalizing flows",
+      "slug": "normalizing-flows",
+      "book_pages": "304-326",
+      "pdf_pages": "318-340",
+      "pdf_page_start": 318,
+      "pdf_page_end": 340,
+      "focus": "Build exact density models from invertible transformations and change-of-variable calculations.",
+      "checkpoint": "Compute a transformed density and identify architectural constraints required for invertibility.",
+      "official_notebooks": [
+        "16_1_1D_Normalizing_Flows.ipynb",
+        "16_2_Autoregressive_Flows.ipynb",
+        "16_3_Contraction_Mappings.ipynb"
+      ],
+      "workspace": "chapters/16-normalizing-flows",
+      "chapter_pdf": "chapters/16-normalizing-flows/chapter-16-normalizing-flows.pdf",
+      "notes_file": "chapters/16-normalizing-flows/notes.md",
+      "issue": 16
+    },
+    {
+      "number": "17",
+      "title": "Variational autoencoders",
+      "slug": "variational-autoencoders",
+      "book_pages": "327-348",
+      "pdf_pages": "341-362",
+      "pdf_page_start": 341,
+      "pdf_page_end": 362,
+      "focus": "Train latent-variable models with variational inference, the ELBO, and reparameterized gradients.",
+      "checkpoint": "Derive the VAE training objective and implement the reparameterization trick.",
+      "official_notebooks": [
+        "17_1_Latent_Variable_Models.ipynb",
+        "17_2_Reparameterization_Trick.ipynb",
+        "17_3_Importance_Sampling.ipynb"
+      ],
+      "workspace": "chapters/17-variational-autoencoders",
+      "chapter_pdf": "chapters/17-variational-autoencoders/chapter-17-variational-autoencoders.pdf",
+      "notes_file": "chapters/17-variational-autoencoders/notes.md",
+      "issue": 17
+    },
+    {
+      "number": "18",
+      "title": "Diffusion models",
+      "slug": "diffusion-models",
+      "book_pages": "349-373",
+      "pdf_pages": "363-387",
+      "pdf_page_start": 363,
+      "pdf_page_end": 387,
+      "focus": "Model data by learning to reverse a gradual noising process.",
+      "checkpoint": "Connect the forward and reverse processes and implement the core one-dimensional diffusion steps.",
+      "official_notebooks": [
+        "18_1_Diffusion_Encoder.ipynb",
+        "18_2_1D_Diffusion_Model.ipynb",
+        "18_3_Reparameterized_Model.ipynb",
+        "18_4_Families_of_Diffusion_Models.ipynb"
+      ],
+      "workspace": "chapters/18-diffusion-models",
+      "chapter_pdf": "chapters/18-diffusion-models/chapter-18-diffusion-models.pdf",
+      "notes_file": "chapters/18-diffusion-models/notes.md",
+      "issue": 18
+    },
+    {
+      "number": "19",
+      "title": "Reinforcement learning",
+      "slug": "reinforcement-learning",
+      "book_pages": "374-401",
+      "pdf_pages": "388-415",
+      "pdf_page_start": 388,
+      "pdf_page_end": 415,
+      "focus": "Learn sequential decisions with MDPs, value methods, policy gradients, and actor–critic methods.",
+      "checkpoint": "Specify an MDP and compare value-based and policy-based learning algorithms.",
+      "official_notebooks": [
+        "19_1_Markov_Decision_Processes.ipynb",
+        "19_2_Dynamic_Programming.ipynb",
+        "19_3_Monte_Carlo_Methods.ipynb",
+        "19_4_Temporal_Difference_Methods.ipynb",
+        "19_5_Control_Variates.ipynb"
+      ],
+      "workspace": "chapters/19-reinforcement-learning",
+      "chapter_pdf": "chapters/19-reinforcement-learning/chapter-19-reinforcement-learning.pdf",
+      "notes_file": "chapters/19-reinforcement-learning/notes.md",
+      "issue": 19
+    },
+    {
+      "number": "20",
+      "title": "Why does deep learning work?",
+      "slug": "why-does-deep-learning-work",
+      "book_pages": "402-420",
+      "pdf_pages": "416-434",
+      "pdf_page_start": 416,
+      "pdf_page_end": 434,
+      "focus": "Examine optimization, generalization, overparameterization, depth, lottery tickets, and adversarial behavior.",
+      "checkpoint": "Evaluate competing explanations for why large deep networks fit and generalize.",
+      "official_notebooks": [
+        "20_1_Random_Data.ipynb",
+        "20_2_Full_Batch_Gradient_Descent.ipynb",
+        "20_3_Lottery_Tickets.ipynb",
+        "20_4_Adversarial_Attacks.ipynb"
+      ],
+      "workspace": "chapters/20-why-does-deep-learning-work",
+      "chapter_pdf": "chapters/20-why-does-deep-learning-work/chapter-20-why-does-deep-learning-work.pdf",
+      "notes_file": "chapters/20-why-does-deep-learning-work/notes.md",
+      "issue": 20
+    },
+    {
+      "number": "21",
+      "title": "Deep learning and ethics",
+      "slug": "deep-learning-and-ethics",
+      "book_pages": "421-436",
+      "pdf_pages": "435-450",
+      "pdf_page_start": 435,
+      "pdf_page_end": 450,
+      "focus": "Analyze value alignment, misuse, bias, explainability, professional responsibility, and collective action.",
+      "checkpoint": "Apply an ethical analysis framework to a deep-learning system and propose concrete mitigations.",
+      "official_notebooks": [
+        "21_1_Bias_Mitigation.ipynb",
+        "21_2_Explainability.ipynb"
+      ],
+      "workspace": "chapters/21-deep-learning-and-ethics",
+      "chapter_pdf": "chapters/21-deep-learning-and-ethics/chapter-21-deep-learning-and-ethics.pdf",
+      "notes_file": "chapters/21-deep-learning-and-ethics/notes.md",
+      "issue": 21
+    }
+  ]
+}

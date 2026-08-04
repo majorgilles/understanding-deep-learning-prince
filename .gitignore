@@ -1,0 +1,13 @@
+.venv/
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+.pytest_cache/
+.ruff_cache/
+.DS_Store
+Thumbs.db
+.idea/
+
+# Learner-generated outputs stay local; directory placeholders remain tracked.
+chapters/*/artifacts/*
+!chapters/*/artifacts/.gitkeep
