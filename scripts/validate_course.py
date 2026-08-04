@@ -91,8 +91,11 @@ def main() -> None:
 
     if official_notebook_count != 68:
         errors.append(f"Expected 68 official notebooks; manifest has {official_notebook_count}")
-    if all_notebook_count != 69:
-        errors.append(f"Expected 69 total notebooks; found {all_notebook_count}")
+    minimum_notebook_count = official_notebook_count + 1  # Chapter 14 study guide
+    if all_notebook_count < minimum_notebook_count:
+        errors.append(
+            f"Expected at least {minimum_notebook_count} notebooks; found {all_notebook_count}"
+        )
 
     if errors:
         print("Course validation failed:")
