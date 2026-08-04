@@ -15,6 +15,18 @@ Process sequences with tokenization, self-attention, multi-head attention, and t
 
 Implement self-attention and explain encoder, decoder, and encoder–decoder use cases.
 
+## Video lectures
+
+From [Deep Learning Fall 2024](https://www.youtube.com/playlist?list=PLRdABJkXXytCz19PsZ1PCQBKoZGV069k3), taught by
+[Dr. Tamer Elsayed](https://www.youtube.com/channel/UCSYrSQ_eCjw5lL2rP3a5wAg) at Qatar University:
+
+- [Lecture 18(b) | Transformers I (Self-Attention, Part 1)](https://www.youtube.com/watch?v=khfeuRVWW4E)
+- [Lecture 19 | Transformers II (Self-Attention, Part 2)](https://www.youtube.com/watch?v=6_0H4eCW-iE)
+- [Lecture 20 | Transformers III (Transformer Layer)](https://www.youtube.com/watch?v=mYOlYV_ROQI)
+- [Lecture 21 | Transformers IV (Encoder- and Decoder-only Models)](https://www.youtube.com/watch?v=Wr5PRttnUTg)
+- [Lecture 22(a) | Transformers V (LLMs and Encoder-Decoder Models)](https://www.youtube.com/watch?v=rvJjEYZtiUY)
+- [Lecture 25 | Transformers for Images](https://www.youtube.com/watch?v=cM_unjgw7XY)
+
 ## Notebooks
 
 | Notebook | Source | Status |

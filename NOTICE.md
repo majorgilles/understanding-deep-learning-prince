@@ -10,6 +10,10 @@ The 68 official notebooks and five supporting image files were copied without mo
 
 The optional upstream GPU variant of Notebook 20.2 is not linked from the course website and is therefore not included. The official collection contains no Chapter 14 notebook, so this repository supplies one clearly labeled original study-guide notebook.
 
+## Video lectures
+
+The chapter guides link to the [Deep Learning Fall 2024](https://www.youtube.com/playlist?list=PLRdABJkXXytCz19PsZ1PCQBKoZGV069k3) undergraduate course taught by [Dr. Tamer Elsayed](https://www.youtube.com/channel/UCSYrSQ_eCjw5lL2rP3a5wAg) at Qatar University. Videos are linked from YouTube and are not copied into this repository. Chapter mappings follow the lecture titles in the playlist; chapters without a matching lecture link to the complete playlist and state that no chapter-specific lecture is currently listed.
+
 ## Independence
 
 This is an independent, noncommercial follow-along course. It is not sponsored by, affiliated with, or endorsed by Simon J. D. Prince, the UDL project, or MIT Press.

@@ -15,6 +15,15 @@ Use convolution, equivariance, downsampling, and upsampling to process structure
 
 Implement 1D and 2D convolutional operations and reason about their output dimensions.
 
+## Video lectures
+
+From [Deep Learning Fall 2024](https://www.youtube.com/playlist?list=PLRdABJkXXytCz19PsZ1PCQBKoZGV069k3), taught by
+[Dr. Tamer Elsayed](https://www.youtube.com/channel/UCSYrSQ_eCjw5lL2rP3a5wAg) at Qatar University:
+
+- [Lecture 22(b) | CNNs I](https://www.youtube.com/watch?v=Fali87wd1FA)
+- [Lecture 23 | CNNs II](https://www.youtube.com/watch?v=NztzeAQWBzw)
+- [Lecture 24 | CNNs III](https://www.youtube.com/watch?v=m-yauH7L2Sk)
+
 ## Notebooks
 
 | Notebook | Source | Status |

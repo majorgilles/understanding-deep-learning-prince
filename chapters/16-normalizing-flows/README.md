@@ -15,6 +15,14 @@ Build exact density models from invertible transformations and change-of-variabl
 
 Compute a transformed density and identify architectural constraints required for invertibility.
 
+## Video lectures
+
+From [Deep Learning Fall 2024](https://www.youtube.com/playlist?list=PLRdABJkXXytCz19PsZ1PCQBKoZGV069k3), taught by
+[Dr. Tamer Elsayed](https://www.youtube.com/channel/UCSYrSQ_eCjw5lL2rP3a5wAg) at Qatar University:
+
+- [Open the complete course playlist](https://www.youtube.com/playlist?list=PLRdABJkXXytCz19PsZ1PCQBKoZGV069k3)
+- No chapter-specific lecture is currently listed in this playlist.
+
 ## Notebooks
 
 | Notebook | Source | Status |

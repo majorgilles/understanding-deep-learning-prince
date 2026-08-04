@@ -15,6 +15,15 @@ Compute parameter gradients with backpropagation and initialize networks for sta
 
 Trace backpropagation through a toy model and justify a sensible initialization strategy.
 
+## Video lectures
+
+From [Deep Learning Fall 2024](https://www.youtube.com/playlist?list=PLRdABJkXXytCz19PsZ1PCQBKoZGV069k3), taught by
+[Dr. Tamer Elsayed](https://www.youtube.com/channel/UCSYrSQ_eCjw5lL2rP3a5wAg) at Qatar University:
+
+- [Lecture 12 | Backpropagation I](https://www.youtube.com/watch?v=NHWP339RnAs)
+- [Lecture 13 | Backpropagation II](https://www.youtube.com/watch?v=3pVRMPmqwhc)
+- [Lecture 14 | Model Initialization](https://www.youtube.com/watch?v=7RTusO198Bk)
+
 ## Notebooks
 
 | Notebook | Source | Status |

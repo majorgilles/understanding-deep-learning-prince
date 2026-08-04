@@ -15,6 +15,15 @@ Improve generalization with explicit penalties, implicit regularization, augment
 
 Select and evaluate regularization strategies for a model that overfits.
 
+## Video lectures
+
+From [Deep Learning Fall 2024](https://www.youtube.com/playlist?list=PLRdABJkXXytCz19PsZ1PCQBKoZGV069k3), taught by
+[Dr. Tamer Elsayed](https://www.youtube.com/channel/UCSYrSQ_eCjw5lL2rP3a5wAg) at Qatar University:
+
+- [Lecture 16 | Measuring Performance II, Regularization I](https://www.youtube.com/watch?v=reEZjWqH8f0)
+- [Lecture 17 | Regularization II](https://www.youtube.com/watch?v=39dnNWG_ZjA)
+- [Lecture 18(a) | Regularization III](https://www.youtube.com/watch?v=lG9eu0Ch5KY)
+
 ## Notebooks
 
 | Notebook | Source | Status |

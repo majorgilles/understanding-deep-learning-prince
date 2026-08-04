@@ -15,6 +15,13 @@ Build depth by composing networks and compare the representation capacity of sha
 
 Express a deep network in matrix notation and reason about the effects of composition.
 
+## Video lectures
+
+From [Deep Learning Fall 2024](https://www.youtube.com/playlist?list=PLRdABJkXXytCz19PsZ1PCQBKoZGV069k3), taught by
+[Dr. Tamer Elsayed](https://www.youtube.com/channel/UCSYrSQ_eCjw5lL2rP3a5wAg) at Qatar University:
+
+- [Lecture 6 | Deep Neural Networks](https://www.youtube.com/watch?v=MbFuZ67QXhc)
+
 ## Notebooks
 
 | Notebook | Source | Status |

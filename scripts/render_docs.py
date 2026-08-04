@@ -28,7 +28,7 @@ def write_document(path: Path, content: str, force: bool) -> None:
     print(f"Wrote {path.relative_to(ROOT)}")
 
 
-def render_chapter_readme(chapter: dict, repo: str) -> str:
+def render_chapter_readme(chapter: dict, repo: str, course: dict) -> str:
     number = chapter["number"]
     chapter_pdf = f"chapter-{number}-{chapter['slug']}.pdf"
     full_book = "../../book/UnderstandingDeepLearning_02_09_26_C.pdf"
@@ -53,6 +53,17 @@ def render_chapter_readme(chapter: dict, repo: str) -> str:
     if not official:
         notebook_note = "\n> The official UDL site currently links no notebook for Chapter 14.\n"
 
+    playlist = course["video_playlist"]
+    video_links = [
+        f"- [{lecture['title']}]({lecture['url']})" for lecture in chapter["video_lectures"]
+    ]
+    if not video_links:
+        video_links = [
+            f"- [Open the complete course playlist]({playlist['url']})",
+            "- No chapter-specific lecture is currently listed in this playlist.",
+        ]
+    video_section = "\n".join(video_links)
+
     return f"""# Chapter {number} — {chapter['title']}
 
 - **Book pages:** {chapter['book_pages']}
@@ -69,6 +80,13 @@ def render_chapter_readme(chapter: dict, repo: str) -> str:
 ## Learning checkpoint
 
 {chapter['checkpoint']}
+
+## Video lectures
+
+From [{playlist['title']}]({playlist['url']}), taught by
+[{playlist['instructor']}]({playlist['channel_url']}) at {playlist['institution']}:
+
+{video_section}
 
 ## Notebooks
 
@@ -134,11 +152,14 @@ def render_notes(chapter: dict, repo: str) -> str:
 def main() -> None:
     args = parse_args()
     manifest = json.loads((ROOT / "course_manifest.json").read_text(encoding="utf-8"))
-    repo = manifest["course"]["repository"]
+    course = manifest["course"]
+    repo = course["repository"]
     for chapter in manifest["chapters"]:
         workspace = ROOT / chapter["workspace"]
         write_document(
-            workspace / "README.md", render_chapter_readme(chapter, repo), args.force
+            workspace / "README.md",
+            render_chapter_readme(chapter, repo, course),
+            args.force,
         )
         write_document(workspace / "notes.md", render_notes(chapter, repo), args.force)
 

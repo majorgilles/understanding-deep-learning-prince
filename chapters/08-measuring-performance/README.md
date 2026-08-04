@@ -15,6 +15,14 @@ Measure training and test behavior through error decomposition, bias–variance 
 
 Design an evaluation procedure that separates optimization, generalization, and data-related error.
 
+## Video lectures
+
+From [Deep Learning Fall 2024](https://www.youtube.com/playlist?list=PLRdABJkXXytCz19PsZ1PCQBKoZGV069k3), taught by
+[Dr. Tamer Elsayed](https://www.youtube.com/channel/UCSYrSQ_eCjw5lL2rP3a5wAg) at Qatar University:
+
+- [Lecture 15 | Measuring Performance I](https://www.youtube.com/watch?v=WQ4yseT2OJQ)
+- [Lecture 16 | Measuring Performance II, Regularization I](https://www.youtube.com/watch?v=reEZjWqH8f0)
+
 ## Notebooks
 
 | Notebook | Source | Status |

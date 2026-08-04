@@ -7,7 +7,14 @@
     "book_edition_date": "2026-02-08",
     "repository": "https://github.com/majorgilles/understanding-deep-learning-prince",
     "upstream_notebooks": "https://github.com/udlbook/udlbook",
-    "upstream_commit": "0d84a591362f1cc99c6dc2ce1c2544d559280681"
+    "upstream_commit": "0d84a591362f1cc99c6dc2ce1c2544d559280681",
+    "video_playlist": {
+      "title": "Deep Learning Fall 2024",
+      "url": "https://www.youtube.com/playlist?list=PLRdABJkXXytCz19PsZ1PCQBKoZGV069k3",
+      "instructor": "Dr. Tamer Elsayed",
+      "institution": "Qatar University",
+      "channel_url": "https://www.youtube.com/channel/UCSYrSQ_eCjw5lL2rP3a5wAg"
+    }
   },
   "chapters": [
     {
@@ -26,7 +33,17 @@
       "workspace": "chapters/01-introduction",
       "chapter_pdf": "chapters/01-introduction/chapter-01-introduction.pdf",
       "notes_file": "chapters/01-introduction/notes.md",
-      "issue": 1
+      "issue": 1,
+      "video_lectures": [
+        {
+          "title": "Lecture 1 | Welcome to DL",
+          "url": "https://www.youtube.com/watch?v=mPyk8Tnim6A"
+        },
+        {
+          "title": "Lecture 2 | Introduction",
+          "url": "https://www.youtube.com/watch?v=HNJlO1O0u2Y"
+        }
+      ]
     },
     {
       "number": "02",
@@ -44,7 +61,13 @@
       "workspace": "chapters/02-supervised-learning",
       "chapter_pdf": "chapters/02-supervised-learning/chapter-02-supervised-learning.pdf",
       "notes_file": "chapters/02-supervised-learning/notes.md",
-      "issue": 2
+      "issue": 2,
+      "video_lectures": [
+        {
+          "title": "Lecture 3 | Supervised Learning",
+          "url": "https://www.youtube.com/watch?v=Nom-7PCikgg"
+        }
+      ]
     },
     {
       "number": "03",
@@ -65,7 +88,17 @@
       "workspace": "chapters/03-shallow-neural-networks",
       "chapter_pdf": "chapters/03-shallow-neural-networks/chapter-03-shallow-neural-networks.pdf",
       "notes_file": "chapters/03-shallow-neural-networks/notes.md",
-      "issue": 3
+      "issue": 3,
+      "video_lectures": [
+        {
+          "title": "Lecture 4 | Shallow Neural Networks I",
+          "url": "https://www.youtube.com/watch?v=FN-di_sL0rY"
+        },
+        {
+          "title": "Lecture 5 | Shallow Neural Networks II",
+          "url": "https://www.youtube.com/watch?v=sLltwCjB4Ok"
+        }
+      ]
     },
     {
       "number": "04",
@@ -85,7 +118,13 @@
       "workspace": "chapters/04-deep-neural-networks",
       "chapter_pdf": "chapters/04-deep-neural-networks/chapter-04-deep-neural-networks.pdf",
       "notes_file": "chapters/04-deep-neural-networks/notes.md",
-      "issue": 4
+      "issue": 4,
+      "video_lectures": [
+        {
+          "title": "Lecture 6 | Deep Neural Networks",
+          "url": "https://www.youtube.com/watch?v=MbFuZ67QXhc"
+        }
+      ]
     },
     {
       "number": "05",
@@ -105,7 +144,21 @@
       "workspace": "chapters/05-loss-functions",
       "chapter_pdf": "chapters/05-loss-functions/chapter-05-loss-functions.pdf",
       "notes_file": "chapters/05-loss-functions/notes.md",
-      "issue": 5
+      "issue": 5,
+      "video_lectures": [
+        {
+          "title": "Lecture 7 | Loss Functions I",
+          "url": "https://www.youtube.com/watch?v=5mXp8dr-ROU"
+        },
+        {
+          "title": "Lecture 8 | Loss Functions II",
+          "url": "https://www.youtube.com/watch?v=S1xShuO7Z-0"
+        },
+        {
+          "title": "Lecture 9 | Loss Functions III",
+          "url": "https://www.youtube.com/watch?v=j-xEfGShu3I"
+        }
+      ]
     },
     {
       "number": "06",
@@ -127,7 +180,17 @@
       "workspace": "chapters/06-fitting-models",
       "chapter_pdf": "chapters/06-fitting-models/chapter-06-fitting-models.pdf",
       "notes_file": "chapters/06-fitting-models/notes.md",
-      "issue": 6
+      "issue": 6,
+      "video_lectures": [
+        {
+          "title": "Lecture 10 | Fitting Models I",
+          "url": "https://www.youtube.com/watch?v=EGBPKDgUP8k"
+        },
+        {
+          "title": "Lecture 11 | Fitting Models II",
+          "url": "https://www.youtube.com/watch?v=Pq0lSTJf1js"
+        }
+      ]
     },
     {
       "number": "07",
@@ -147,7 +210,21 @@
       "workspace": "chapters/07-gradients-and-initialization",
       "chapter_pdf": "chapters/07-gradients-and-initialization/chapter-07-gradients-and-initialization.pdf",
       "notes_file": "chapters/07-gradients-and-initialization/notes.md",
-      "issue": 7
+      "issue": 7,
+      "video_lectures": [
+        {
+          "title": "Lecture 12 | Backpropagation I",
+          "url": "https://www.youtube.com/watch?v=NHWP339RnAs"
+        },
+        {
+          "title": "Lecture 13 | Backpropagation II",
+          "url": "https://www.youtube.com/watch?v=3pVRMPmqwhc"
+        },
+        {
+          "title": "Lecture 14 | Model Initialization",
+          "url": "https://www.youtube.com/watch?v=7RTusO198Bk"
+        }
+      ]
     },
     {
       "number": "08",
@@ -168,7 +245,17 @@
       "workspace": "chapters/08-measuring-performance",
       "chapter_pdf": "chapters/08-measuring-performance/chapter-08-measuring-performance.pdf",
       "notes_file": "chapters/08-measuring-performance/notes.md",
-      "issue": 8
+      "issue": 8,
+      "video_lectures": [
+        {
+          "title": "Lecture 15 | Measuring Performance I",
+          "url": "https://www.youtube.com/watch?v=WQ4yseT2OJQ"
+        },
+        {
+          "title": "Lecture 16 | Measuring Performance II, Regularization I",
+          "url": "https://www.youtube.com/watch?v=reEZjWqH8f0"
+        }
+      ]
     },
     {
       "number": "09",
@@ -190,7 +277,21 @@
       "workspace": "chapters/09-regularization",
       "chapter_pdf": "chapters/09-regularization/chapter-09-regularization.pdf",
       "notes_file": "chapters/09-regularization/notes.md",
-      "issue": 9
+      "issue": 9,
+      "video_lectures": [
+        {
+          "title": "Lecture 16 | Measuring Performance II, Regularization I",
+          "url": "https://www.youtube.com/watch?v=reEZjWqH8f0"
+        },
+        {
+          "title": "Lecture 17 | Regularization II",
+          "url": "https://www.youtube.com/watch?v=39dnNWG_ZjA"
+        },
+        {
+          "title": "Lecture 18(a) | Regularization III",
+          "url": "https://www.youtube.com/watch?v=lG9eu0Ch5KY"
+        }
+      ]
     },
     {
       "number": "10",
@@ -212,7 +313,21 @@
       "workspace": "chapters/10-convolutional-networks",
       "chapter_pdf": "chapters/10-convolutional-networks/chapter-10-convolutional-networks.pdf",
       "notes_file": "chapters/10-convolutional-networks/notes.md",
-      "issue": 10
+      "issue": 10,
+      "video_lectures": [
+        {
+          "title": "Lecture 22(b) | CNNs I",
+          "url": "https://www.youtube.com/watch?v=Fali87wd1FA"
+        },
+        {
+          "title": "Lecture 23 | CNNs II",
+          "url": "https://www.youtube.com/watch?v=NztzeAQWBzw"
+        },
+        {
+          "title": "Lecture 24 | CNNs III",
+          "url": "https://www.youtube.com/watch?v=m-yauH7L2Sk"
+        }
+      ]
     },
     {
       "number": "11",
@@ -232,7 +347,8 @@
       "workspace": "chapters/11-residual-networks",
       "chapter_pdf": "chapters/11-residual-networks/chapter-11-residual-networks.pdf",
       "notes_file": "chapters/11-residual-networks/notes.md",
-      "issue": 11
+      "issue": 11,
+      "video_lectures": []
     },
     {
       "number": "12",
@@ -253,7 +369,33 @@
       "workspace": "chapters/12-transformers",
       "chapter_pdf": "chapters/12-transformers/chapter-12-transformers.pdf",
       "notes_file": "chapters/12-transformers/notes.md",
-      "issue": 12
+      "issue": 12,
+      "video_lectures": [
+        {
+          "title": "Lecture 18(b) | Transformers I (Self-Attention, Part 1)",
+          "url": "https://www.youtube.com/watch?v=khfeuRVWW4E"
+        },
+        {
+          "title": "Lecture 19 | Transformers II (Self-Attention, Part 2)",
+          "url": "https://www.youtube.com/watch?v=6_0H4eCW-iE"
+        },
+        {
+          "title": "Lecture 20 | Transformers III (Transformer Layer)",
+          "url": "https://www.youtube.com/watch?v=mYOlYV_ROQI"
+        },
+        {
+          "title": "Lecture 21 | Transformers IV (Encoder- and Decoder-only Models)",
+          "url": "https://www.youtube.com/watch?v=Wr5PRttnUTg"
+        },
+        {
+          "title": "Lecture 22(a) | Transformers V (LLMs and Encoder-Decoder Models)",
+          "url": "https://www.youtube.com/watch?v=rvJjEYZtiUY"
+        },
+        {
+          "title": "Lecture 25 | Transformers for Images",
+          "url": "https://www.youtube.com/watch?v=cM_unjgw7XY"
+        }
+      ]
     },
     {
       "number": "13",
@@ -274,7 +416,8 @@
       "workspace": "chapters/13-graph-neural-networks",
       "chapter_pdf": "chapters/13-graph-neural-networks/chapter-13-graph-neural-networks.pdf",
       "notes_file": "chapters/13-graph-neural-networks/notes.md",
-      "issue": 13
+      "issue": 13,
+      "video_lectures": []
     },
     {
       "number": "14",
@@ -290,7 +433,8 @@
       "workspace": "chapters/14-unsupervised-learning",
       "chapter_pdf": "chapters/14-unsupervised-learning/chapter-14-unsupervised-learning.pdf",
       "notes_file": "chapters/14-unsupervised-learning/notes.md",
-      "issue": 14
+      "issue": 14,
+      "video_lectures": []
     },
     {
       "number": "15",
@@ -309,7 +453,8 @@
       "workspace": "chapters/15-generative-adversarial-networks",
       "chapter_pdf": "chapters/15-generative-adversarial-networks/chapter-15-generative-adversarial-networks.pdf",
       "notes_file": "chapters/15-generative-adversarial-networks/notes.md",
-      "issue": 15
+      "issue": 15,
+      "video_lectures": []
     },
     {
       "number": "16",
@@ -329,7 +474,8 @@
       "workspace": "chapters/16-normalizing-flows",
       "chapter_pdf": "chapters/16-normalizing-flows/chapter-16-normalizing-flows.pdf",
       "notes_file": "chapters/16-normalizing-flows/notes.md",
-      "issue": 16
+      "issue": 16,
+      "video_lectures": []
     },
     {
       "number": "17",
@@ -349,7 +495,8 @@
       "workspace": "chapters/17-variational-autoencoders",
       "chapter_pdf": "chapters/17-variational-autoencoders/chapter-17-variational-autoencoders.pdf",
       "notes_file": "chapters/17-variational-autoencoders/notes.md",
-      "issue": 17
+      "issue": 17,
+      "video_lectures": []
     },
     {
       "number": "18",
@@ -370,7 +517,8 @@
       "workspace": "chapters/18-diffusion-models",
       "chapter_pdf": "chapters/18-diffusion-models/chapter-18-diffusion-models.pdf",
       "notes_file": "chapters/18-diffusion-models/notes.md",
-      "issue": 18
+      "issue": 18,
+      "video_lectures": []
     },
     {
       "number": "19",
@@ -392,7 +540,8 @@
       "workspace": "chapters/19-reinforcement-learning",
       "chapter_pdf": "chapters/19-reinforcement-learning/chapter-19-reinforcement-learning.pdf",
       "notes_file": "chapters/19-reinforcement-learning/notes.md",
-      "issue": 19
+      "issue": 19,
+      "video_lectures": []
     },
     {
       "number": "20",
@@ -413,7 +562,8 @@
       "workspace": "chapters/20-why-does-deep-learning-work",
       "chapter_pdf": "chapters/20-why-does-deep-learning-work/chapter-20-why-does-deep-learning-work.pdf",
       "notes_file": "chapters/20-why-does-deep-learning-work/notes.md",
-      "issue": 20
+      "issue": 20,
+      "video_lectures": []
     },
     {
       "number": "21",
@@ -432,7 +582,8 @@
       "workspace": "chapters/21-deep-learning-and-ethics",
       "chapter_pdf": "chapters/21-deep-learning-and-ethics/chapter-21-deep-learning-and-ethics.pdf",
       "notes_file": "chapters/21-deep-learning-and-ethics/notes.md",
-      "issue": 21
+      "issue": 21,
+      "video_lectures": []
     }
   ]
 }

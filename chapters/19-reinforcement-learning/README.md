@@ -15,6 +15,14 @@ Learn sequential decisions with MDPs, value methods, policy gradients, and actor
 
 Specify an MDP and compare value-based and policy-based learning algorithms.
 
+## Video lectures
+
+From [Deep Learning Fall 2024](https://www.youtube.com/playlist?list=PLRdABJkXXytCz19PsZ1PCQBKoZGV069k3), taught by
+[Dr. Tamer Elsayed](https://www.youtube.com/channel/UCSYrSQ_eCjw5lL2rP3a5wAg) at Qatar University:
+
+- [Open the complete course playlist](https://www.youtube.com/playlist?list=PLRdABJkXXytCz19PsZ1PCQBKoZGV069k3)
+- No chapter-specific lecture is currently listed in this playlist.
+
 ## Notebooks
 
 | Notebook | Source | Status |

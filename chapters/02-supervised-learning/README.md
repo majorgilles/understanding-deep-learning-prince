@@ -15,6 +15,13 @@ Frame supervised learning through models, parameters, losses, training data, and
 
 Describe a supervised learning pipeline and implement the chapter’s linear regression example.
 
+## Video lectures
+
+From [Deep Learning Fall 2024](https://www.youtube.com/playlist?list=PLRdABJkXXytCz19PsZ1PCQBKoZGV069k3), taught by
+[Dr. Tamer Elsayed](https://www.youtube.com/channel/UCSYrSQ_eCjw5lL2rP3a5wAg) at Qatar University:
+
+- [Lecture 3 | Supervised Learning](https://www.youtube.com/watch?v=Nom-7PCikgg)
+
 ## Notebooks
 
 | Notebook | Source | Status |

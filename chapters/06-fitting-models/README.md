@@ -15,6 +15,14 @@ Fit models with gradient descent, stochastic gradient descent, momentum, and Ada
 
 Compare optimization algorithms and explain the role of their hyperparameters.
 
+## Video lectures
+
+From [Deep Learning Fall 2024](https://www.youtube.com/playlist?list=PLRdABJkXXytCz19PsZ1PCQBKoZGV069k3), taught by
+[Dr. Tamer Elsayed](https://www.youtube.com/channel/UCSYrSQ_eCjw5lL2rP3a5wAg) at Qatar University:
+
+- [Lecture 10 | Fitting Models I](https://www.youtube.com/watch?v=EGBPKDgUP8k)
+- [Lecture 11 | Fitting Models II](https://www.youtube.com/watch?v=Pq0lSTJf1js)
+
 ## Notebooks
 
 | Notebook | Source | Status |

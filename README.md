@@ -9,6 +9,7 @@ A chapter-by-chapter, noncommercial study repository for [*Understanding Deep Le
 - The complete, unchanged February 8, 2026 [book PDF](book/UnderstandingDeepLearning_02_09_26_C.pdf).
 - One mechanically extracted PDF per chapter, using the PDF's own bookmarks and page ranges.
 - All **68 notebooks linked from the official website**, copied unchanged from the upstream repository at commit [`0d84a591362f`](https://github.com/udlbook/udlbook/commit/0d84a591362f1cc99c6dc2ce1c2544d559280681).
+- Chapter-matched links to Dr. Tamer Elsayed's [Deep Learning Fall 2024 video lectures](https://www.youtube.com/playlist?list=PLRdABJkXXytCz19PsZ1PCQBKoZGV069k3).
 - One original Chapter 14 study-guide notebook because the official collection has no Chapter 14 notebook.
 - Per-chapter notes, source/test/artifact folders, and one GitHub issue per chapter.
 

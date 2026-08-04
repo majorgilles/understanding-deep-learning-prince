@@ -15,6 +15,14 @@ Orient yourself to supervised, unsupervised, and reinforcement learning and the 
 
 Distinguish the three major learning paradigms and explain how deep networks contribute to each.
 
+## Video lectures
+
+From [Deep Learning Fall 2024](https://www.youtube.com/playlist?list=PLRdABJkXXytCz19PsZ1PCQBKoZGV069k3), taught by
+[Dr. Tamer Elsayed](https://www.youtube.com/channel/UCSYrSQ_eCjw5lL2rP3a5wAg) at Qatar University:
+
+- [Lecture 1 | Welcome to DL](https://www.youtube.com/watch?v=mPyk8Tnim6A)
+- [Lecture 2 | Introduction](https://www.youtube.com/watch?v=HNJlO1O0u2Y)
+
 ## Notebooks
 
 | Notebook | Source | Status |

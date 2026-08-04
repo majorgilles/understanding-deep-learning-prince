@@ -15,6 +15,14 @@ Represent graphs and solve graph- and node-level tasks with message passing and 
 
 Implement a graph neural network layer and match graph representations to task-specific losses.
 
+## Video lectures
+
+From [Deep Learning Fall 2024](https://www.youtube.com/playlist?list=PLRdABJkXXytCz19PsZ1PCQBKoZGV069k3), taught by
+[Dr. Tamer Elsayed](https://www.youtube.com/channel/UCSYrSQ_eCjw5lL2rP3a5wAg) at Qatar University:
+
+- [Open the complete course playlist](https://www.youtube.com/playlist?list=PLRdABJkXXytCz19PsZ1PCQBKoZGV069k3)
+- No chapter-specific lecture is currently listed in this playlist.
+
 ## Notebooks
 
 | Notebook | Source | Status |

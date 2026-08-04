@@ -15,6 +15,14 @@ Understand one-hidden-layer networks, activation functions, linear regions, and 
 
 Construct and analyze a shallow network for scalar and multivariate inputs and outputs.
 
+## Video lectures
+
+From [Deep Learning Fall 2024](https://www.youtube.com/playlist?list=PLRdABJkXXytCz19PsZ1PCQBKoZGV069k3), taught by
+[Dr. Tamer Elsayed](https://www.youtube.com/channel/UCSYrSQ_eCjw5lL2rP3a5wAg) at Qatar University:
+
+- [Lecture 4 | Shallow Neural Networks I](https://www.youtube.com/watch?v=FN-di_sL0rY)
+- [Lecture 5 | Shallow Neural Networks II](https://www.youtube.com/watch?v=sLltwCjB4Ok)
+
 ## Notebooks
 
 | Notebook | Source | Status |

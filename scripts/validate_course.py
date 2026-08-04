@@ -30,7 +30,11 @@ def main() -> None:
     errors: list[str] = []
     official_notebook_count = 0
     all_notebook_count = 0
+    playlist = manifest["course"].get("video_playlist", {})
+    playlist_url = playlist.get("url")
 
+    if not playlist_url:
+        errors.append("Missing course video playlist metadata")
     if len(manifest["chapters"]) != 21:
         errors.append(f"Expected 21 chapters; found {len(manifest['chapters'])}")
 
@@ -46,6 +50,17 @@ def main() -> None:
         for required in (workspace / "README.md", workspace / "notes.md", chapter_pdf):
             if not required.exists():
                 errors.append(f"Missing required file: {required.relative_to(ROOT)}")
+
+        chapter_readme = workspace / "README.md"
+        if chapter_readme.exists():
+            readme_text = chapter_readme.read_text(encoding="utf-8")
+            if playlist_url and playlist_url not in readme_text:
+                errors.append(f"Missing playlist link in {chapter_readme.relative_to(ROOT)}")
+            for lecture in chapter.get("video_lectures", []):
+                if lecture["url"] not in readme_text:
+                    errors.append(
+                        f"Missing video {lecture['url']} in {chapter_readme.relative_to(ROOT)}"
+                    )
 
         if chapter_pdf.exists():
             actual_pages = len(PdfReader(chapter_pdf).pages)

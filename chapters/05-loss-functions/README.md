@@ -15,6 +15,15 @@ Derive practical regression and classification losses from maximum likelihood.
 
 Choose and implement an appropriate loss for regression, binary classification, and multiclass classification.
 
+## Video lectures
+
+From [Deep Learning Fall 2024](https://www.youtube.com/playlist?list=PLRdABJkXXytCz19PsZ1PCQBKoZGV069k3), taught by
+[Dr. Tamer Elsayed](https://www.youtube.com/channel/UCSYrSQ_eCjw5lL2rP3a5wAg) at Qatar University:
+
+- [Lecture 7 | Loss Functions I](https://www.youtube.com/watch?v=5mXp8dr-ROU)
+- [Lecture 8 | Loss Functions II](https://www.youtube.com/watch?v=S1xShuO7Z-0)
+- [Lecture 9 | Loss Functions III](https://www.youtube.com/watch?v=j-xEfGShu3I)
+
 ## Notebooks
 
 | Notebook | Source | Status |
