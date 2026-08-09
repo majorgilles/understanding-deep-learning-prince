@@ -31,10 +31,11 @@ From [Deep Learning Fall 2024](https://www.youtube.com/playlist?list=PLRdABJkXXy
 | [`5_1_Least_Squares_Loss.ipynb`](notebooks/5_1_Least_Squares_Loss.ipynb) | [upstream](https://github.com/udlbook/udlbook/blob/main/Notebooks/Chap05/5_1_Least_Squares_Loss.ipynb) | Official (MIT) |
 | [`5_2_Binary_Cross_Entropy_Loss.ipynb`](notebooks/5_2_Binary_Cross_Entropy_Loss.ipynb) | [upstream](https://github.com/udlbook/udlbook/blob/main/Notebooks/Chap05/5_2_Binary_Cross_Entropy_Loss.ipynb) | Official (MIT) |
 | [`5_3_Multiclass_Cross_entropy_Loss.ipynb`](notebooks/5_3_Multiclass_Cross_entropy_Loss.ipynb) | [upstream](https://github.com/udlbook/udlbook/blob/main/Notebooks/Chap05/5_3_Multiclass_Cross_entropy_Loss.ipynb) | Official (MIT) |
+| [`chapter_05_heteroscedastic_regression_pytorch.ipynb`](notebooks/chapter_05_heteroscedastic_regression_pytorch.ipynb) | Chapter 5, Section 5.3.4 | Companion: deep PyTorch mean-and-variance regression |
 
 ## Folder contract
 
-- `notebooks/` — official fill-in-the-code exercises, except the labeled Chapter 14 study guide.
+- `notebooks/` — official fill-in-the-code exercises and clearly named companion study notebooks.
 - `src/` — cleaned code worth retaining after notebook exploration.
 - `tests/` — small checks for important behavior and reproducibility.
 - `artifacts/` — plots, samples, metrics, and screenshots; generated files stay local by default.
