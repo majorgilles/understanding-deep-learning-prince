@@ -31,10 +31,11 @@ From [Deep Learning Fall 2024](https://www.youtube.com/playlist?list=PLRdABJkXXy
 | [`8_2_Bias_Variance_Trade_Off.ipynb`](notebooks/8_2_Bias_Variance_Trade_Off.ipynb) | [upstream](https://github.com/udlbook/udlbook/blob/main/Notebooks/Chap08/8_2_Bias_Variance_Trade_Off.ipynb) | Official (MIT) |
 | [`8_3_Double_Descent.ipynb`](notebooks/8_3_Double_Descent.ipynb) | [upstream](https://github.com/udlbook/udlbook/blob/main/Notebooks/Chap08/8_3_Double_Descent.ipynb) | Official (MIT) |
 | [`8_4_High_Dimensional_Spaces.ipynb`](notebooks/8_4_High_Dimensional_Spaces.ipynb) | [upstream](https://github.com/udlbook/udlbook/blob/main/Notebooks/Chap08/8_4_High_Dimensional_Spaces.ipynb) | Official (MIT) |
+| [`chapter_08_bias_variance_decomposition_from_scratch.ipynb`](notebooks/chapter_08_bias_variance_decomposition_from_scratch.ipynb) | Chapter 8, Section 8.2.2 | Companion: step-by-step bias–variance decomposition |
 
 ## Folder contract
 
-- `notebooks/` — official fill-in-the-code exercises, except the labeled Chapter 14 study guide.
+- `notebooks/` — official fill-in-the-code exercises and clearly named companion study notebooks.
 - `src/` — cleaned code worth retaining after notebook exploration.
 - `tests/` — small checks for important behavior and reproducibility.
 - `artifacts/` — plots, samples, metrics, and screenshots; generated files stay local by default.
